@@ -1,0 +1,102 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-image: url("food.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	opacity: 0.9;
+}
+header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+header ul li{
+	display: inline-block;
+	font-size: 20px;
+	list-style: none;
+	margin: 12px;
+	/*border:1px solid white;
+	border-radius: 42%;
+	padding: 7px;*/
+}
+#f{
+	color: red;
+	font-size: 35px;
+	font-family: forte;
+}
+h1 span{
+	color: orange;
+	font-size: 30px;
+	font-family: forte;
+}
+h1{
+	font-size: 25px;
+	color: white;
+	font-style: italic;
+	text-transform: uppercase;
+
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+#contact{
+	margin-left: 105px;
+}
+main{
+	position: absolute;
+	top: 45%;
+	left:33%;
+	text-transform: uppercase;
+}
+main h1{
+	font-size: 30px;
+	color:#DEA057;
+}
+#sfood{
+	color: white;
+	font-weight: bolder;
+	font-family: sans-serif;
+}
+h2{
+
+	color:white;
+	font-weight: bolder;
+}
+
+.dev{
+	position: absolute;
+	top: 65%;
+	left: 40%;
+
+
+}
+#input{
+	width: 300px;
+	height: 39px;
+	background-color: rgba(255,235,230,0.3);
+	border-radius: 40PX;
+	color:white;
+
+
+}
+button{
+	position: relative;
+	top: 10px;
+	left: 120px;
+	padding: 10px;
+	border-radius: 40px;
+	background-color:rgba(0,0,0,0.5);
+	color: white;
+	font-weight: bolder;
+
+
+}
+ul li:hover{
+	font-size: 35px;
+	font-family:forte;
+}
